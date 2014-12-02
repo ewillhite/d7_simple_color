@@ -1542,19 +1542,6 @@ body > nav, body > nav.contextual-links-region {
   -ms-flex: 1 1 40em;
   flex: 1 1 40em; }
 
-.switch {
-  background-color: #2f2f2f;
-  border-radius: 0;
-  opacity: .2;
-  position: fixed;
-  right: 0;
-  top: 0; }
-  .switch:hover {
-    opacity: 1; }
-  .switch img {
-    height: auto;
-    width: 1.2em; }
-
 .footer {
   background: #537fbe;
   margin-top: 4em;

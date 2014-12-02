@@ -12,16 +12,6 @@
         $(".js-menu-screen").toggleClass("is-visible");
         return e.preventDefault();
       });
-      $(".js-menu-trigger-2").on("click touchstart", function(e) {
-        $("body > nav").toggleClass("is-visible");
-        $(".js-menu-screen-2").toggleClass("is-visible");
-        return e.preventDefault();
-      });
-      $(".js-menu-screen-2").on("click touchstart", function(e) {
-        $("body > nav").toggleClass("is-visible");
-        $(".js-menu-screen-2").toggleClass("is-visible");
-        return e.preventDefault();
-      });
       element = $(".fade-in-element");
       $(element).addClass("js-fade-element-hide");
       return $(window).scroll(function() {

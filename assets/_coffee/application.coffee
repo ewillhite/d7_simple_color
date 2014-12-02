@@ -16,19 +16,6 @@
       e.preventDefault()
 
     #
-    # Switching Menu
-    $(".js-menu-trigger-2").on "click touchstart", (e) ->
-      $("body > nav").toggleClass "is-visible"
-      $(".js-menu-screen-2").toggleClass "is-visible"
-      e.preventDefault()
-
-    $(".js-menu-screen-2").on "click touchstart", (e) ->
-      $("body > nav").toggleClass "is-visible"
-      $(".js-menu-screen-2").toggleClass "is-visible"
-      e.preventDefault()
-
-
-    #
     # Fade-In
     element = $(".fade-in-element")
     $(element).addClass "js-fade-element-hide"
